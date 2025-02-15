@@ -1,0 +1,48 @@
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+a {
+    text-decoration: none;
+    color: #4D5AE5;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit
+}
+
+a:focus,
+a:hover,
+a:active,
+button:focus,
+button:hover,
+button:active {
+    color: #404BBF;
+}
+
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18;
+}
