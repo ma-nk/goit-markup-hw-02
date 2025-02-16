@@ -7,7 +7,7 @@ li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 address {
@@ -41,16 +41,11 @@ a {
 
 button {
     cursor: pointer;
-    font-family: inherit
+    font-family: inherit;
 }
 
-a:focus,
-a:hover,
-a:active,
-button:focus,
-button:hover,
-button:active,
-.links.first:active {
+
+.links:first-child:active {
     color: #404BBF;
 }
 
@@ -65,11 +60,11 @@ button:active,
 }
 
 .logo span {
-    color: #2e2f42
+    color: #2e2f42;
 }
 
 span .studio {
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 
 .contacts {
@@ -100,7 +95,8 @@ span .studio {
 }
 
 .button-general:hover,
-.button-general:focus {
+.button-general:focus,
+.button-general:active {
     color: #404BBF;
 }
 
