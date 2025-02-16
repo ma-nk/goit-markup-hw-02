@@ -45,7 +45,8 @@ button {
 }
 
 
-.links:first-child:active {
+.links:hover,
+.links:focus {
     color: #404BBF;
 }
 
@@ -59,11 +60,7 @@ button {
     text-transform: uppercase;
 }
 
-.logo span {
-    color: #2e2f42;
-}
-
-span .studio {
+.studio {
     color: #f4f4fd;
 }
 
@@ -94,10 +91,9 @@ span .studio {
     color: #ffffff;
 }
 
-.button-general:hover,
-.button-general:focus,
-.button-general:active {
-    color: #404BBF;
+.button-general:hover
+.button-general:focus {
+    background-color: #404BBF;
 }
 
 .content-title {
