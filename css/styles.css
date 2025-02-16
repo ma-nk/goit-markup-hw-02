@@ -10,6 +10,14 @@ li {
     color: #2e2f42;
 }
 
+.studio-header {
+    color: #2e2f42
+}
+
+.first-item.links:hover {
+   color: #404bbf;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -91,9 +99,14 @@ button {
     color: #ffffff;
 }
 
-.button-general:hover
+.button-general:hover,
 .button-general:focus {
     background-color: #404BBF;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #404BBF;
 }
 
 .content-title {
